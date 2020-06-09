@@ -15,6 +15,9 @@ a {
     color: #aa0a5f;
 }
 
+div.single-slider slider-height hero-overly d-flex align-items-center slick-slide slick-current slick-active {
+	background-image: url("首頁背景.jpg");
+}
 a, a:hover, a:focus{
 	text-decoration: none;
 	outline: 0;
