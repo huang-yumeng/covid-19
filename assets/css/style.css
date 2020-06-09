@@ -3548,7 +3548,7 @@ hero-btn {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 1.2;
   }
 }
