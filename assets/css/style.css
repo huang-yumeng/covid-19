@@ -101,7 +101,7 @@
   color: #ff1313 !important;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Microsoft JhengHei", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -200,7 +200,7 @@
 /* 1. Theme default css */
 /* line 4, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 body {
-  font-family: "Barlow", sans-serif;
+  font-family: "Microsoft JhengHei", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -212,7 +212,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Microsoft JhengHei", sans-serif;
   color: #fff;
   margin-top: 0px;
   font-style: normal;
@@ -222,7 +222,7 @@ h6 {
 
 /* line 23, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 p {
-  font-family: "Barlow", sans-serif;
+  font-family: "Microsoft JhengHei", sans-serif;
   color: #10285d;
   font-size: 16px;
   line-height: 30px;
