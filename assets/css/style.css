@@ -3261,7 +3261,13 @@ hero-btn {
 }
 
 h3.dead{
-	color:#16161a;
+	font-size: 30px;
+	color: #16161a;
+}
+
+p.mortality rate{
+	font-size: 25px;
+	color: #007799;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
