@@ -3260,6 +3260,10 @@ hero-btn {
   text-transform: uppercase;
 }
 
+h3.dead{
+	color:#16161a;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 56, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
   .header-area .menu-wrapper .main-menu ul li a {
