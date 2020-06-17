@@ -3264,10 +3264,21 @@ h3.dead{
 	font-size: 30px;
 	color: #16161a;
 }
-.sec Taiwan{
+
+div.sec Taiwan{
 	text-align: center;
 }
 
+div.table{
+	text-align: center;
+}
+
+p.girl-boy{
+	font-size: 20px;
+	color:	#E6E6FA;
+}
+	
+	
 p.rate{
 	font-size: 25px;
 	color: #007799;
