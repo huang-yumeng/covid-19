@@ -3270,7 +3270,7 @@ div.table{
 }
 
 tr:nth-child(even) {
-    background: #F0F0F0
+    background: #F0F0F0;
 }
 
 tr:nth-child(odd) {
@@ -3279,6 +3279,10 @@ tr:nth-child(odd) {
 
 td:hover {
     background-color: #DDDDFF;
+}
+
+p.s-title{
+	text-align: center;
 }
 
 p.girl-boy{
