@@ -3272,9 +3272,13 @@ div.table{
 tr:nth-child(even) {
     background: #F0F0F0
 }
-5
+
 tr:nth-child(odd) {
     background-color: #FFFFFF;
+}
+
+td:hover {
+    background-color: #DDDDFF;
 }
 
 p.girl-boy{
