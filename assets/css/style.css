@@ -3282,14 +3282,16 @@ h3.dead{
 	padding:.7rem;
 	vertical-align:top;
 	border-top:1px solid #ad1827;
-	background-color: rgba(255, 209, 214, 0.5);
+	background-color: #ffff;
+	padding-right: 50px;
+	padding-left: 50px;
 }
-padding-right: 30px;
-  padding-left: 80px;
+  
 p.girl-boy{
 	font-size: 20px;
 	color:	#E6E6FA;
 	text-align: center;
+	padding-bottom: 50px;
 }
 	
 .w-100{
