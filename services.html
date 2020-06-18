@@ -167,7 +167,116 @@
     <!-- Team End -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="plans">
         <div class="w-100">
-		<div class="taiwanMap">
+		<section class="secTaiwan">
+                <div class="_inner">
+                    <p class="s-title">台灣病例縣市分佈</p>
+                    <div class="clear"></div>
+                    <div class="taiwanForm">
+                        <div class="twForm">
+                            <div class="table">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td></td>
+                                            <td>縣市</td>
+                                            <td>確診</td>
+                                            <!-- <td>死亡</td> -->
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                                                <tr>
+                                            <td>1</td>
+                                            <td>臺北市</td>
+                                            <td>118</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>2</td>
+                                            <td>新北市</td>
+                                            <td>91</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>3</td>
+                                            <td>桃園市</td>
+                                            <td>53</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>4</td>
+                                            <td>高雄市</td>
+                                            <td>49</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>5</td>
+                                            <td>臺中市</td>
+                                            <td>42</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>6</td>
+                                            <td>彰化縣</td>
+                                            <td>19</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>7</td>
+                                            <td>臺南市</td>
+                                            <td>16</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>8</td>
+                                            <td>屏東縣</td>
+                                            <td>12</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>9</td>
+                                            <td>新竹市</td>
+                                            <td>11</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>10</td>
+                                            <td>新竹縣</td>
+                                            <td>8</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>11</td>
+                                            <td>基隆市</td>
+                                            <td>7</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>12</td>
+                                            <td>雲林縣</td>
+                                            <td>6</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>13</td>
+                                            <td>嘉義市</td>
+                                            <td>4</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>14</td>
+                                            <td>苗栗縣</td>
+                                            <td>3</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>15</td>
+                                            <td>宜蘭縣</td>
+                                            <td>2</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>16</td>
+                                            <td>南投縣</td>
+                                            <td>2</td>
+                                        </tr>
+                                                                                <tr>
+                                            <td>17</td>
+                                            <td>嘉義縣</td>
+                                            <td>2</td>
+                                        </tr>
+                                                                            </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="taiwanMap">
                         <div class="content">
                             <div class="map">
         
@@ -256,6 +365,170 @@
                             </div> -->
                         </div>
                     </div>
+
+                                        <div class="taiwanData">
+                        <div class="twConfirmed">
+                            <div class="sexBox">
+                                <div class="female">
+                                    <img src="./images/icon_female.png">
+                                    <p>女性<span>224</span>人</p>
+                                </div>
+                                <div class="male">
+                                    <img src="./images/icon_male.png">
+                                    <p>男性<span>222</span>人</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                                        <div class="taiwanAge">
+                        <div class="twChart">
+                            <p class="chartTitle">人數/年齡</p>
+                            <div class="ageChart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                                
+                                <canvas id="chart-age" height="193" width="1082" style="display: block; height: 155px; width: 866px;" class="chartjs-render-monitor"></canvas>
+                                <script>
+                                    var ctx1 = document.getElementById("chart-age");
+                                    ctx1.width = $('.ageChart').width();
+                                    var labels = [];
+                                    var data = [];
+                                    var scales = [];
+                                    var scale = {0:'#F2F2F2',1:'#F4D7D7',2:'#ECC3C3',3:'#E4AFAF',4:'#DC9C9C',5:'#D38888',6:'#CB7474',7:'#C36060'};
+                                                                            labels.push("10 歲以下");
+                                        data.push("4");
+                                        scales.push(scale["1"]);
+                                                                            labels.push("10-14");
+                                        data.push("1");
+                                        scales.push(scale["1"]);
+                                                                            labels.push("15-19");
+                                        data.push("20");
+                                        scales.push(scale["2"]);
+                                                                            labels.push("20-24");
+                                        data.push("104");
+                                        scales.push(scale["7"]);
+                                                                            labels.push("25-29");
+                                        data.push("65");
+                                        scales.push(scale["7"]);
+                                                                            labels.push("30-34");
+                                        data.push("61");
+                                        scales.push(scale["7"]);
+                                                                            labels.push("35-39");
+                                        data.push("35");
+                                        scales.push(scale["4"]);
+                                                                            labels.push("40-44");
+                                        data.push("24");
+                                        scales.push(scale["3"]);
+                                                                            labels.push("45-49");
+                                        data.push("19");
+                                        scales.push(scale["2"]);
+                                                                            labels.push("50-54");
+                                        data.push("24");
+                                        scales.push(scale["3"]);
+                                                                            labels.push("55-59");
+                                        data.push("29");
+                                        scales.push(scale["3"]);
+                                                                            labels.push("60-64");
+                                        data.push("24");
+                                        scales.push(scale["3"]);
+                                                                            labels.push("65-69");
+                                        data.push("19");
+                                        scales.push(scale["2"]);
+                                                                            labels.push("70+");
+                                        data.push("16");
+                                        scales.push(scale["2"]);
+                                                                        var myChart = null;
+                                    var nowBar = 0;
+
+                                    $(window).scroll(function(){
+                                        if(myChart!==null) return;
+                                        if($(window).scrollTop()+$(window).height()>$('.taiwanAge').offset().top)
+                                            drawChart();
+                                    });
+
+                                    function drawChart(){
+                                        var _data = [];
+                                        $.each(data,function(i,v){
+                                            _data[i] = 0;
+                                        });
+                                        myChart = new Chart(ctx1, {
+                                            type: 'bar',
+                                            data: {
+                                                labels: labels,
+                                                datasets: [{
+                                                    data: _data,
+                                                    fill: false,
+                                                    pointRadius: 6,
+                                                    pointHoverRadius: 6,
+                                                    pointBorderWidth: 0,
+                                                    pointBackgroundColor: 'rgba(156,0,0,1)',
+                                                    backgroundColor: scales,
+                                                    lineTension: 0
+                                                }]
+                                            },
+                                            options: {
+                                                layout: {
+                                                    padding: {
+                                                        top: 20
+                                                    }
+                                                },
+                                                legend: {
+                                                    display: false
+                                                },
+                                                scales: {
+                                                    yAxes: [{
+                                                        ticks: {
+                                                            beginAtZero:true,
+                                                            callback: function(label, index, labels) {
+                                                                return label;
+                                                            }
+                                                        }
+                                                    }]
+                                                },
+                                                animation: {
+                                                    onComplete: function(){
+                                                        var chartInstance = this.chart,
+                                                            ctx = chartInstance.ctx;
+                                                        
+                                                        ctx.textAlign = 'center';
+                                                        ctx.textBaseline = 'bottom';
+
+                                                        this.data.datasets.forEach(function(dataset,i){
+                                                            var meta = chartInstance.controller.getDatasetMeta(i);
+                                                            meta.data.forEach(function(bar, index) {
+                                                                var data = dataset.data[index];
+                                                                ctx.fillText(data, bar._model.x, bar._model.y - 2);
+                                                            });
+                                                        });
+                                                        aniComp = true;
+                                                    },
+                                                    onProgress: function(ani){
+                                                        if(ani.currentStep>ani.numSteps*0.2)
+                                                            drawNextBar();
+                                                    }
+                                                }
+                                            }
+                                        });
+                                    }
+
+                                    function drawNextBar(){
+                                        if(nowBar>=data.length) return;
+                                        myChart.data.datasets[0].data[nowBar] = data[nowBar];
+                                        myChart.update();
+                                        nowBar += 1;
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+                <div class="info-source">
+                    <p>備註：年齡與性別資料來自疾管署開放資料，因政府資料更新速度較慢，有時會與確診數有所落差。</p>
+                </div>
+                <div class="iframe-box">
+                    <iframe src="https://s.yimg.com/cv/apiv2/default/20191210/corona_state.html" height="420px" frameborder="0"></iframe>
+                </div>
+
+            </section>
            <h2 class="mb-5">
            <span class="text-primary">我的計畫</span>
            Plans
