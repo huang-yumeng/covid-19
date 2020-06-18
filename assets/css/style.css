@@ -3265,6 +3265,9 @@ h3.dead{
 	color: #16161a;
 }
 
+.table td, .table th{
+	border-top:;
+}
 p.girl-boy{
 	font-size: 20px;
 	color:	#E6E6FA;
