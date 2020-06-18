@@ -3296,6 +3296,12 @@ p.girl-boy{
 	padding-left: 150px;
 }
 
+h2.number{
+	font-size:40px;
+	font-weight:400;
+	line-height:1.5;
+}
+
 .profession-caption .profession-details-about{
 	background:#fff;
 	padding:90px;
