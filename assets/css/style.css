@@ -3275,8 +3275,7 @@ h3.dead{
 	vertical-align:top;
 	border-top:1px solid #ad1827;
 	background-color: #ffff;
-	padding-right: 100px;
-	padding-left: 100px;
+	
 }
   
 .spread{
@@ -3293,6 +3292,8 @@ p.girl-boy{
 .w-100{
 	width: 100%!important;
 	text-align: center;
+	padding-right: 100px;
+	padding-left: 100px;
 }
 
 p.rate{
