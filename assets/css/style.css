@@ -3275,14 +3275,17 @@ h3.dead{
 
 .table .thead-dark th{
 	background-color: #7a0d17;
-	border-color: #ad1827;
+	border-color: ;
 }
 
-.tbody .a123{
+.table td, .table th{
+	padding:.7rem;
+	vertical-align:top;
+	border-top:1px solid #ad1827;
 	background-color: rgba(255, 209, 214, 0.5);
 }
-
-
+padding-right: 30px;
+  padding-left: 80px;
 p.girl-boy{
 	font-size: 20px;
 	color:	#E6E6FA;
