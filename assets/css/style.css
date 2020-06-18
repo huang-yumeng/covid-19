@@ -3268,6 +3268,15 @@ h3.dead{
 .table td, .table th{
 	border-top:;
 }
+
+.table{
+	color:;
+}
+
+.text-primary{
+	text-align: center;
+}
+
 p.girl-boy{
 	font-size: 20px;
 	color:	#E6E6FA;
