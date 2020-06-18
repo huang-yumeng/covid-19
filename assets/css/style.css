@@ -3277,6 +3277,11 @@ h3.dead{
 	text-align: center;
 }
 
+.table .thead-dark th{
+	background-color: #0e4b8c;
+	border-color: #175ba3;
+}
+
 p.girl-boy{
 	font-size: 20px;
 	color:	#E6E6FA;
