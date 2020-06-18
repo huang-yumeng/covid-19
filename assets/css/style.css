@@ -3282,6 +3282,11 @@ h3.dead{
 	border-color: #175ba3;
 }
 
+.tbody .a123{
+	background-color: rgba(213, 234, 245, 0.5);
+}
+
+
 p.girl-boy{
 	font-size: 20px;
 	color:	#E6E6FA;
