@@ -3303,6 +3303,12 @@ p.girl-boy{
 	line-height: 1.5;
 }
 
+.justify-content-between{
+	justify-content: space-between!important;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
 .section-padding30{
 	padding-top: 10px;
 	padding-bottom: 170px;
