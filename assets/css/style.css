@@ -3265,14 +3265,6 @@ h3.dead{
 	color: #16161a;
 }
 
-.table td, .table th{
-	border-top:;
-}
-
-.table{
-	color:;
-}
-
 .table .thead-dark th{
 	background-color: #7a0d17;
 	border-color: ;
@@ -3283,10 +3275,13 @@ h3.dead{
 	vertical-align:top;
 	border-top:1px solid #ad1827;
 	background-color: #ffff;
-	padding-right: 50px;
-	padding-left: 50px;
+	padding-right: 100px;
+	padding-left: 100px;
 }
   
+.spread{
+	color: #fffff;
+}
 p.girl-boy{
 	font-size: 20px;
 	color:	#E6E6FA;
