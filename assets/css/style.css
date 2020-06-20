@@ -2936,7 +2936,7 @@ hero-btn {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 881, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
   .section-padding3 {
-    padding-top: 95px;
+    padding-top: 10px;
     padding-bottom: 0px;
   }
 }
@@ -3319,7 +3319,7 @@ div.taiwan{
     text-align:  center;
 }
 
-div.phone{
+div.phone{ 
 	text-align:  center;
 }
 
