@@ -2926,6 +2926,10 @@ hero-btn {
   padding-bottom: 100px;
 }
 
+div.a1234{
+	background-color: #FF0000;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 881, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
   .section-padding3 {
