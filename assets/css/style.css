@@ -3311,9 +3311,13 @@ p.girl-boy{
 
 .section-padding30{
 	padding-top: 10px;
-	padding-bottom: 170px;
+	padding-bottom: 100px;
 }
 
+img.taiwan{
+	padding-bottom: 90px;
+	text-align: center;
+}
 .align-items-end{
 	padding-bottom: 150px;
 }
