@@ -4906,7 +4906,7 @@ p.rate{
 /* line 19, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
 .home-blog-area .home-blog-single .blog-img-cap ul li {
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Microsoft JhengHei", sans-serif;
   font-weight: 300;
   color: #787878;
@@ -4933,6 +4933,7 @@ p.rate{
   padding: 20px 30px 20px 120px;
   margin-right: 50px;
   color: #fff;
+  font-size: 18px;
 }
 
 /* line 40, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
