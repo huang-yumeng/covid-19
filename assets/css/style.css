@@ -509,7 +509,7 @@ hr {
   background: #ff1313;
   padding: 27px 44px;
   text-transform: uppercase;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Microsoft JhengHei", sans-serif;
   color: #fff;
   cursor: pointer;
   display: inline-block;
@@ -3893,7 +3893,7 @@ p.rate{
   position: relative;
   z-index: 2;
   margin-bottom: 15px;
-  font-family: "Barlow", sans-serif;
+  font-family: "Microsoft JhengHei", sans-serif;
 }
 
 /* line 29, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
@@ -4362,7 +4362,7 @@ p.rate{
   color: #959595;
   font-size: 16px;
   font-weight: 300;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Microsoft JhengHei", sans-serif;
   display: block;
   position: relative;
   margin-left: 50px;
@@ -4905,7 +4905,7 @@ p.rate{
 .home-blog-area .home-blog-single .blog-img-cap ul li {
   display: inline-block;
   font-size: 14px;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Microsoft JhengHei", sans-serif;
   font-weight: 300;
   color: #787878;
 }
