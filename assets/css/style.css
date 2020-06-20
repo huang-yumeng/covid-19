@@ -3316,7 +3316,10 @@ p.girl-boy{
 
 img.taiwan{
 	padding-bottom: 90px;
-	text-align: center;
+    line-height:  150px;
+    max-width:  100%;
+    display:  block;
+    text-align:  center;
 }
 .align-items-end{
 	padding-bottom: 150px;
