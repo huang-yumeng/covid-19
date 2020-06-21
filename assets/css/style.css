@@ -4920,14 +4920,6 @@ p.rate{
   }
 }
 
-div.english{
-	padding-top: 70px;
-	padding-bottom: 70px;
-	text-align: center;
-	display: flex;
-	flex-wrap: wrap;
-}
-
 
 @media (max-width: 575px) {
   /* line 19, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
